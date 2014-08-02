@@ -1,0 +1,159 @@
+body {
+  color: #333;
+  font: 1em "Droid Sans" Helvetica Arial sans-serif;
+}
+
+p {
+  line-height: 1.75;
+}
+
+h1,h2,h3 {
+  font-family: "Playfair Display" serif;
+  font-weight: normal;
+  margin-bottom: 0.3em;
+}
+
+h1 {
+  font-size: 2em;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a {
+  color: #BF2D1D;
+}
+
+a.button {
+  color: white;
+  background: #BF2D1D;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+}
+
+.continue-reading {
+  text-align: right;
+  margin-top: 0.3em;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.site-header {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.site-header img {
+  width: 25%;
+}
+
+.site-header h1 {
+  font: 2.5em "Playfair Display SC" serif;
+  margin: 0.5em 0 0.25em 0;
+}
+
+.site-header p {
+  font: 1.5em "Playfair Display SC" serif;
+  line-height: 1;
+  color: #666;
+}
+
+.site-header a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-header nav ul {
+  list-style: none;
+  margin: 1.5em 0;
+  font-size: 1.3em;
+  line-height: 2.2em;
+  background: #f6f6f6;
+}
+
+.site-header nav li {
+  display: inline;
+  margin: 0 0.5em;
+}
+
+@media only screen and (max-width: 400px) {
+  .site-header nav li {
+    display: block;
+    margin: 0.5em 0;
+  }
+}
+
+.site-header nav em a {
+  font-style: normal;
+  color: white;
+  background: #BF2D1D;
+  padding: 0.5em 0.75em;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus {
+  text-decoration: underline;
+}
+
+.home-page .site-header nav .home a,
+.services-page .site-header nav .services a,
+.about-page .site-header nav .about a,
+.contact-page .site-header nav .contact a {
+  text-decoration: underline;
+}
+
+.page-content:before,
+.page-content:after {
+  content: " ";
+  display: table;
+}
+
+.page-content:after {
+  clear: both;
+}
+
+.site-footer {
+  margin: 4em 0 1em 0;
+  font-size: 0.8em;
+  color: #666;
+  text-align: center;
+}
+
+.home-page .intro {
+  font: 1.75em "Playfair Display" serif;
+  text-align: center;
+  margin: 1em 0 2.5em 0;
+}
+
+.home-page section.services,
+.home-page section.about,
+.home-page section.contact {
+  width: 30%;
+  margin: 0 5% 0 0;
+  float: left;
+}
+
+.home-page section.contact {
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .home-page section.services,
+  .home-page section.about,
+  .home-page section.contact {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+}

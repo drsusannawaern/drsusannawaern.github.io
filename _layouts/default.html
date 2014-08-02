@@ -2,8 +2,40 @@
 <html>
 <head>
 <title>{{ site.title }}</title>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Playfair+Display:400,400italic|Playfair+Display+SC' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="/stylesheets/reset.css">
+<link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
 </head>
-<body>
-{{ content }}
+<body class="{{ page.body_class }}">
+<div class="wrapper">
+  <header class="site-header">
+    <a href="/">
+      <img src="/images/susanna.jpg" alt="Dr. Susanna Waern">
+      <h1>Dr Susanna Waern</h1>
+      <p>Clinical Neuropsychologist</p>
+    </a>
+    <nav>
+      <ul>
+        <li class="home"><a href="/">Home</a></li>
+        <li class="services"><a href="/services">Services</a></li>
+        <li class="about"><a href="/about">About</a></li>
+        <li class="contact"><em><a href="/contact">Contact</a></em></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-content">
+    {{ content }}
+  </div>
+
+  <footer class="site-footer">
+    <p>
+    {{ site.address }}.
+    <a href="tel:{{ site.phone }}">Call {{ site.phone }}</a> or email
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+    </p>
+  </footer>
+</div>
 </body>
 </html>

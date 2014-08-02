@@ -1,9 +1,12 @@
 # Site settings
-title: Dr. Susanna Waern
-email: drsusannawaern@gmail.com
+title: Dr Susanna Waern
 description: ""
 baseurl: ""
 url: "http://drsusannawaern.co.uk"
+address: "Dr Susanna Waern, Some road 123, 123 31 London"
+phone: "213123132123"
+email: "drsusannawaern@gmail.com"
+
 
 # Build settings
 markdown: kramdown
