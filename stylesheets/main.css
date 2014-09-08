@@ -127,7 +127,7 @@ a.button {
 }
 
 .home-page .intro {
-  font: 1.75em "Playfair Display" serif;
+  font: 2em "Playfair Display" serif;
   text-align: center;
   margin: 1em 0 2.5em 0;
 }
@@ -150,7 +150,7 @@ a.button {
 .home-page .intro p {
   float: left;
   width: 70%;
-  margin-left: 5%;
+  margin: 0.4em 0 0 5%;
   text-align: left;
 }
 
@@ -178,6 +178,7 @@ a.button {
     text-align: inherit;
     width: 100%;
     margin: 0;
+    font-size: 0.75em;
   }
 
   .home-page section.services,
