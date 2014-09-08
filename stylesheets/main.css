@@ -54,10 +54,6 @@ a.button {
   text-align: center;
 }
 
-.site-header img {
-  width: 25%;
-}
-
 .site-header h1 {
   font: 2.5em "Playfair Display SC" serif;
   margin: 0.5em 0 0.25em 0;
@@ -136,6 +132,28 @@ a.button {
   margin: 1em 0 2.5em 0;
 }
 
+.home-page .intro:before,
+.home-page .intro:after {
+  content: " ";
+  display: table;
+}
+
+.home-page .intro:after {
+  clear: both;
+}
+
+.home-page .intro img {
+  float: left;
+  width: 25%;
+}
+
+.home-page .intro p {
+  float: left;
+  width: 70%;
+  margin-left: 5%;
+  text-align: left;
+}
+
 .home-page section.services,
 .home-page section.about,
 .home-page section.contact {
@@ -149,6 +167,19 @@ a.button {
 }
 
 @media only screen and (max-width: 700px) {
+  .home-page .intro img {
+    float: none;
+    width: 70%;
+    margin: 0 0 1em 0;
+  }
+
+  .home-page .intro p {
+    float: none;
+    text-align: inherit;
+    width: 100%;
+    margin: 0;
+  }
+
   .home-page section.services,
   .home-page section.about,
   .home-page section.contact {
