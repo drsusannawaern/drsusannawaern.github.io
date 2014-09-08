@@ -8,8 +8,8 @@
 <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
 </head>
 <body class="{{ page.body_class }}">
-<div class="wrapper">
-  <header class="site-header">
+<header class="site-header">
+  <div class="wrapper">
     <a href="/">
       <h1>Dr Susanna Waern</h1>
       <p>Clinical Psychologist</p>
@@ -18,28 +18,32 @@
       Families
       </p>
     </a>
-    <nav>
-      <ul>
-        <li class="home"><a href="/">Home</a></li>
-        <li class="services"><a href="/services">Services</a></li>
-        <li class="children"><a href="/children">For children and teenagers</a></li>
-        <li class="about"><a href="/about">About</a></li>
-        <li class="contact"><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  </div>
+  <nav>
+    <ul>
+      <li class="home"><a href="/">Home</a></li>
+      <li class="services"><a href="/services">Services</a></li>
+      <li class="children"><a href="/children">For children and teenagers</a></li>
+      <li class="about"><a href="/about">About</a></li>
+      <li class="contact"><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <div class="page-content">
+<div class="page-content">
+  <div class="wrapper">
     {{ content }}
   </div>
+</div>
 
-  <footer class="site-footer">
+<footer class="site-footer">
+  <div class="wrapper">
     <p>
     {{ site.address }}.
     <a href="tel:{{ site.phone }}">Call {{ site.phone }}</a> or email
     <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
     </p>
-  </footer>
-</div>
+  </div>
+</footer>
 </body>
 </html>
