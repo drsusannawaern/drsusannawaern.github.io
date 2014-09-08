@@ -95,7 +95,13 @@ a.button {
   margin: 0 0.5em;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
+  .site-header nav ul {
+   font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .site-header nav li {
     display: block;
     margin: 0.5em 0;
