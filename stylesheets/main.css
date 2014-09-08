@@ -108,13 +108,6 @@ a.button {
   }
 }
 
-.site-header nav em a {
-  font-style: normal;
-  color: white;
-  background: #BF2D1D;
-  padding: 0.5em 0.75em;
-}
-
 .site-header nav a:hover,
 .site-header nav a:focus {
   text-decoration: underline;
