@@ -145,6 +145,7 @@ a.button {
 .home-page .intro img {
   float: left;
   width: 25%;
+  border-radius: 50%;
 }
 
 .home-page .intro p {
