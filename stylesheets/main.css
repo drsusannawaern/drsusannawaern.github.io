@@ -72,6 +72,11 @@ a.button {
   color: #666;
 }
 
+.site-header .areas-of-expertise {
+  font: italic 1em "Playfair Display" serif;
+  color: #666;
+}
+
 .site-header a {
   color: #333;
   text-decoration: none;
