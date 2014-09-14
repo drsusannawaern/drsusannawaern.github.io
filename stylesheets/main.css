@@ -22,7 +22,6 @@ h1,h2,h3 {
 
 h1 {
   font-size: 2em;
-  font-style: italic;
 }
 
 h2 {
@@ -75,7 +74,7 @@ a.button {
 }
 
 .site-header .areas-of-expertise {
-  font: italic 1em "Playfair Display" serif;
+  font: 1em "Playfair Display" serif;
   color: #666;
 }
 
