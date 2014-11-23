@@ -1,9 +1,13 @@
 ---
 ---
 @import "normalize";
-@import "layout";
+@import "bourbon/bourbon";
+@import "grid_settings";
+@import "neat/neat";
+@import "colors";
 @import "typography";
+@import "layout";
 @import "site_header";
-@import "page_content";
+@import "site_main";
 @import "site_footer";
 @import "home_page";

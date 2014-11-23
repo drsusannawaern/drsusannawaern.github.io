@@ -18,6 +18,10 @@ h1,h2,h3 {
   font-family: "Playfair Display" serif;
   font-weight: normal;
   margin-bottom: 0.6em;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 h1 {
@@ -34,12 +38,12 @@ h3 {
 }
 
 a {
-  color: #00B8B8;
+  color: $accent-color;
 }
 
 a.button {
   color: white;
-  background: #00B8B8;
+  background: $accent-color;
   padding: 0.5em 0.75em;
   text-decoration: none;
 }
