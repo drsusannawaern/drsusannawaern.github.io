@@ -1,0 +1,45 @@
+body {
+  color: #333;
+  font: 1em "Droid Sans" Helvetica Arial sans-serif;
+}
+
+p {
+  line-height: 1.75;
+  margin-bottom: 1em;
+}
+
+p + h1,
+p + h2,
+p + h3 {
+  margin-top: 1em;
+}
+
+h1,h2,h3 {
+  font-family: "Playfair Display" serif;
+  font-weight: normal;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+a {
+  color: #00B8B8;
+}
+
+a.button {
+  color: white;
+  background: #00B8B8;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+}

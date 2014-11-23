@@ -1,0 +1,9 @@
+.page-content:before,
+.page-content:after {
+  content: " ";
+  display: table;
+}
+
+.page-content:after {
+  clear: both;
+}
