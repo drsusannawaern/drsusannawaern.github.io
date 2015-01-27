@@ -23,20 +23,17 @@
 }
 
 .site-header nav {
-  $number-of-nav-items: 5;
-  $nav-item-gutter: 0.2em;
-
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: table;
-    border-spacing: $nav-item-gutter;
+    border-spacing: 0.2em;
     width: 100%;
   }
 
   li {
-    width: 100% / $number-of-nav-items;
+    width: 100% / 7;
     display: table-cell;
     vertical-align: middle;
     background: $navigation-background-color;

@@ -1,0 +1,28 @@
+.site-main nav {
+  margin-top: -2em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+    border-spacing: 0.2em;
+    width: 100%;
+  }
+
+  li {
+    width: 100% / 6;
+    display: table-cell;
+    vertical-align: middle;
+    background: $navigation-background-color;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    line-height: 1.2;
+    padding: 0.4em 1em;
+    color: #333;
+    text-decoration: none;
+  }
+}
