@@ -26,3 +26,31 @@
   color: #333;
   text-decoration: none;
 }
+
+.site-header nav {
+  $number-of-nav-items: 5;
+  $nav-item-gutter: 0.2em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+    border-spacing: $nav-item-gutter;
+    width: 100%;
+  }
+
+  li {
+    width: 100% / $number-of-nav-items;
+    display: table-cell;
+    vertical-align: middle;
+    background: $navigation-background-color;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    line-height: 1.2;
+    padding: 0.4em 1em;
+  }
+}
