@@ -1,6 +1,10 @@
 .continue-reading {
   text-align: right;
   margin-top: 0.3em;
+
+  &:after {
+    content: "»";
+  }
 }
 
 .home-page .intro {
@@ -32,14 +36,14 @@
 }
 
 .home-page section.services,
-.home-page section.about,
-.home-page section.contact {
+.home-page section.young-people,
+.home-page section.about {
   width: 30%;
   margin: 0 5% 0 0;
   float: left;
 }
 
-.home-page section.contact {
+.home-page section.about {
   margin: 0;
 }
 
@@ -59,8 +63,8 @@
   }
 
   .home-page section.services,
-  .home-page section.about,
-  .home-page section.contact {
+  .home-page section.young-people,
+  .home-page section.about {
     width: 100%;
     margin: 0;
     float: none;
