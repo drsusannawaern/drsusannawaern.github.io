@@ -46,3 +46,13 @@
     padding: 0.4em 1em;
   }
 }
+
+body.home .site-header nav li.home,
+body.services .site-header nav li.services,
+body.young-people .site-header nav li.young-people,
+body.about .site-header nav li.about,
+body.appointments .site-header nav li.appointments,
+body.resources .site-header nav li.resources,
+body.contact .site-header nav li.contact {
+  background: $navigation-active-background-color;
+}
