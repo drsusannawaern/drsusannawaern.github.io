@@ -35,6 +35,11 @@
   text-align: left;
 }
 
+.home .featured {
+  background: $featured-background-color;
+  padding: 2em 0;
+}
+
 .home section.services,
 .home section.young-people,
 .home section.about {

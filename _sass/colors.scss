@@ -2,3 +2,4 @@ $accent-color-one: #5cc4b4;
 $accent-color-two: #ff9885;
 $navigation-background-color: $accent-color-one;
 $navigation-active-background-color: $accent-color-two;
+$featured-background-color: tint($accent-color-one, 90%);
