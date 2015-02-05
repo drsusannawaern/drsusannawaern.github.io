@@ -14,7 +14,7 @@
     width: 100% / 6;
     display: table-cell;
     vertical-align: middle;
-    background: $navigation-active-background-color;
+    background: $sub-navigation-background-color;
   }
 
   a {
@@ -25,4 +25,13 @@
     color: #333;
     text-decoration: none;
   }
+}
+
+body.paediatrics .site-main nav li.paediatrics,
+body.neuropsychology .site-main nav li.neuropsychology,
+body.assessments .site-main nav li.assessments,
+body.therapies .site-main nav li.therapies,
+body.parenting .site-main nav li.parenting,
+body.consultation-and-teaching .site-main nav li.consultation-and-teaching {
+  background: $navigation-active-background-color;
 }
