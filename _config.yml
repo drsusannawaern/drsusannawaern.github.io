@@ -2,11 +2,10 @@
 title: Dr Susanna Waern
 description: ""
 baseurl: ""
-url: "http://drsusannawaern.co.uk"
-address: "Dr Susanna Waern, Some road 123, 123 31 London"
-phone: "213123132123"
-email: "drsusannawaern@gmail.com"
-
+url: http://drsusannawaern.co.uk
+name: Dr Susanna Waern
+phone: 07881 958 424
+email: dr.susanna.waern@gmail.com
 
 # Build settings
 markdown: kramdown
