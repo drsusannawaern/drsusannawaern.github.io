@@ -23,12 +23,15 @@
 }
 
 .site-header nav {
+  background: $navigation-background-color;
+  border-top: 1px solid $navigation-border-color;
+  border-bottom: 1px solid $navigation-border-color;
+
   ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: -1px 0 -1px 0;
     display: table;
-    border-spacing: 0.2em;
     width: 100%;
   }
 
@@ -36,7 +39,6 @@
     width: 100% / 7;
     display: table-cell;
     vertical-align: middle;
-    background: $navigation-background-color;
   }
 
   a {
@@ -55,4 +57,5 @@ body.appointments .site-header nav li.appointments,
 body.resources .site-header nav li.resources,
 body.contact .site-header nav li.contact {
   background: $navigation-active-background-color;
+  border: 1px solid $navigation-active-border-color;
 }

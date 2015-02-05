@@ -1,6 +1,11 @@
 $accent-color-one: #5cc4b4;
 $accent-color-two: #ff9885;
 $navigation-background-color: $accent-color-one;
-$sub-navigation-background-color: tint($accent-color-one, 50%);
+$navigation-border-color: shade($navigation-background-color, 20%);
 $navigation-active-background-color: $accent-color-two;
+$navigation-active-border-color: shade($navigation-active-background-color, 20%);
+$sub-navigation-background-color: tint($accent-color-one, 50%);
+$sub-navigation-border-color: shade($sub-navigation-background-color, 20%);
+$sub-navigation-active-background-color: tint($accent-color-two, 50%);
+$sub-navigation-active-border-color: shade($sub-navigation-active-background-color, 20%);
 $featured-background-color: tint($accent-color-one, 90%);
