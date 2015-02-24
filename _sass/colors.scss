@@ -10,4 +10,4 @@ $sub-navigation-background-color: tint($accent-color-one, 50%);
 $sub-navigation-border-color: shade($sub-navigation-background-color, 20%);
 $sub-navigation-active-background-color: tint($accent-color-two, 50%);
 $sub-navigation-active-border-color: shade($sub-navigation-active-background-color, 20%);
-$featured-background-color: tint($accent-color-one, 70%);
+$featured-background-color: $sub-navigation-background-color;
