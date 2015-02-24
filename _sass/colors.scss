@@ -1,7 +1,7 @@
 $accent-color-one: #5cc4b4;
 $accent-color-two: #ff9885;
 $body-background-color: tint($accent-color-one, 95%);
-$body-font-color: shade($accent-color-one, 50%);
+$body-font-color: shade($accent-color-one, 60%);
 $navigation-background-color: $accent-color-one;
 $navigation-border-color: shade($navigation-background-color, 20%);
 $navigation-active-background-color: $accent-color-two;
