@@ -38,6 +38,10 @@
 .home .featured {
   background: $featured-background-color;
   padding: 2em 0;
+
+  a {
+    color: $featured-link-color;
+  }
 }
 
 .home section.services,
